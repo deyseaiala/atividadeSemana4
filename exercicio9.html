@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 9 - Semana 4</title>
+</head>
+<body>
+    
+<script>
+    //Promoção de fim de ano numa loja 
+    // esse sistema possibilita que o funcionário informando a cor da etiqueta do produto, 
+    // seja liberado o desconto específico pra cada cor da promoçao.
+
+    let corEtiqueta = window.prompt("Qual a cor da etiqueta do produto?")
+
+    switch(corEtiqueta){
+        case "Verde":
+        window.alert("Etiqueta verde: 10% de desconto liberado.")
+        break;
+        case "Amarela":
+        window.alert("Etiqueta amarela: 30% de desconto liberado.")
+        break;
+        case "Vermelha":
+        window.alert("Etiqueta vermelha: 50% de desconto liberado.")
+        break;
+        case "Branca":
+        window.alert("Etiqueta branca: não possui desconto liberado.")
+        break;
+        default: 
+        alert("Etiqueta não identificada, tente novamente.")
+        break;
+    }
+    
+    
+</script>
+
+</body>
+</html>
